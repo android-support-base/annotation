@@ -1,4 +1,4 @@
-package com.amlzq.annotation;
+package com.amlzq.android.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 需要运行时权限
+ * 提示注解
  */
 @Documented // 元素包含到 Javadoc
 @Retention(RetentionPolicy.SOURCE) // 源码阶段保留
@@ -20,5 +20,5 @@ import java.lang.annotation.Target;
         ElementType.PACKAGE, // 包
         ElementType.LOCAL_VARIABLE // 局部变量
 })
-public @interface permission {
+public @interface amlzq {
 }

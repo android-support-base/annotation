@@ -1,32 +1,32 @@
-# android-support-annotation
+# android-support-annotations
 
 ## 发布
 * 最新版本
 
 | groupId | artifactId | version |
 | -------- | -------- | -------- |
-| com.amlzq.android | annotation |  |
+| com.amlzq.android | annotations |  |
 
 * 使用
 ```
 dependencies{
     ...
-    implementation 'com.amlzq.android:annotation:latest.integration'
+    implementation 'com.amlzq.annotations:latest.integration'
 }
 ```
 
 ## 工程结构
-* ./annotation
-> annotation library
+* ./annotations
+> annotations library
 ```
-package: com.amlzq.android.annotation
+package: com.amlzq.annotation
 ```
 * ./sample
 > sample application
 ```
 package: com.amlzq.asb
-appName: Annotation支持库
-applicationId: com.amlzq.asb.annotation
+appName: Annotations支持库
+applicationId: com.amlzq.asb.annotations
 ```
 
 #### 实践

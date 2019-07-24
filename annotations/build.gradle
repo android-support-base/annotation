@@ -67,11 +67,11 @@ publish {
     userOrg = 'amlzq' // 组织用户名
     repoName = 'android-support-base' // maven类型仓库名称
     groupId = 'com.amlzq.android' //
-    artifactId = 'annotation'
+    artifactId = 'annotations'
     publishVersion = android.defaultConfig.versionName
-    desc = 'annotation api'
-    website = 'https://github.com/android-support-base/annotation'
-    repository = 'https://github.com/android-support-base/annotation.git'
+    desc = 'annotations api'
+    website = 'https://github.com/android-support-base/annotations'
+    repository = 'https://github.com/android-support-base/annotations.git'
 }
 
 //// 以下是发布到本地 maven 仓库配置

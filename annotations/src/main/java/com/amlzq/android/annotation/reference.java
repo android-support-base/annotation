@@ -1,4 +1,4 @@
-package com.amlzq.annotation;
+package com.amlzq.android.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
