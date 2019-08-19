@@ -30,3 +30,7 @@ applicationId: com.amlzq.asb.annotations
 ```
 
 #### 实践
+- 注解开发
+```
+```
+- [Java 注解 （Annotation）你可以这样学](https://blog.csdn.net/briblue/article/details/73824058)
